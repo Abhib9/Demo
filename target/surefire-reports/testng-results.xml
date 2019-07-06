@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Script execution starts Sat Jul 06 23:45:34 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script has started Sat Jul 06 23:46:02 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[validLogin script has passed!!]]>
+    </line>
+    <line>
+      <![CDATA[Script execution ends Sat Jul 06 23:46:16 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Total time taken by the scripts: 1 mins]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of scripts executed: 1]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of scripts passed: 1]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of scripts failed: 0]]>
+    </line>
+    <line>
+      <![CDATA[Total no. of scripts skipped: 0]]>
+    </line>
+    <line>
+      <![CDATA[Script execution starts Sat Jul 06 23:46:16 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer script has started Sat Jul 06 23:46:23 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[GE HealthCare is verified]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer script has passed!!]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome]]>
+    </line>
+    <line>
+      <![CDATA[createProject script has started Sat Jul 06 23:46:42 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Medical Software has beeb created!!]]>
+    </line>
+    <line>
+      <![CDATA[createProject script has passed!!]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome]]>
+    </line>
+    <line>
+      <![CDATA[deleteProject script has started Sat Jul 06 23:47:00 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Project has been successfully deleted.]]>
+    </line>
+    <line>
+      <![CDATA[Medical Software has been deleted]]>
+    </line>
+    <line>
+      <![CDATA[deleteProject script has passed!!]]>
+    </line>
+    <line>
+      <![CDATA[Launching Chrome]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer script has started Sat Jul 06 23:47:33 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[GE HealthCare has been deleted successfully!!]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer script has passed!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42015" started-at="2019-07-06T18:15:34Z" finished-at="2019-07-06T18:16:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42015" started-at="2019-07-06T18:15:34Z" finished-at="2019-07-06T18:16:16Z">
+      <class name="scripts.LoginTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.LoginTest@2d554825]" name="preCondition" is-config="true" duration-ms="27741" started-at="2019-07-06T18:15:34Z" finished-at="2019-07-06T18:16:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:scripts.LoginTest@2d554825]" name="validLogin" duration-ms="12828" started-at="2019-07-06T18:16:02Z" finished-at="2019-07-06T18:16:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[validLogin script has started Sat Jul 06 23:46:02 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[validLogin script has passed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.LoginTest@2d554825]" name="postCondition" is-config="true" duration-ms="1338" started-at="2019-07-06T18:16:14Z" finished-at="2019-07-06T18:16:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="84939" started-at="2019-07-06T18:16:16Z" finished-at="2019-07-06T18:17:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="84939" started-at="2019-07-06T18:16:16Z" finished-at="2019-07-06T18:17:41Z">
+      <class name="scripts.TaskTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="preCondition" is-config="true" duration-ms="7541" started-at="2019-07-06T18:16:16Z" finished-at="2019-07-06T18:16:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="createCustomer" duration-ms="10134" started-at="2019-07-06T18:16:23Z" finished-at="2019-07-06T18:16:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer script has started Sat Jul 06 23:46:23 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[GE HealthCare is verified]]>
+            </line>
+            <line>
+              <![CDATA[createCustomer script has passed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="postCondition" is-config="true" duration-ms="3454" started-at="2019-07-06T18:16:34Z" finished-at="2019-07-06T18:16:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="preCondition" is-config="true" duration-ms="5343" started-at="2019-07-06T18:16:37Z" finished-at="2019-07-06T18:16:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createProject()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="createProject" duration-ms="10396" started-at="2019-07-06T18:16:42Z" depends-on-methods="scripts.TaskTest.createCustomer" finished-at="2019-07-06T18:16:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createProject script has started Sat Jul 06 23:46:42 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Medical Software has beeb created!!]]>
+            </line>
+            <line>
+              <![CDATA[createProject script has passed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createProject -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="postCondition" is-config="true" duration-ms="2016" started-at="2019-07-06T18:16:53Z" finished-at="2019-07-06T18:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="preCondition" is-config="true" duration-ms="4826" started-at="2019-07-06T18:16:55Z" finished-at="2019-07-06T18:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteProject()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="deleteProject" duration-ms="27475" started-at="2019-07-06T18:17:00Z" depends-on-methods="scripts.TaskTest.createProject" finished-at="2019-07-06T18:17:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteProject script has started Sat Jul 06 23:47:00 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Project has been successfully deleted.]]>
+            </line>
+            <line>
+              <![CDATA[Medical Software has been deleted]]>
+            </line>
+            <line>
+              <![CDATA[deleteProject script has passed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteProject -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="postCondition" is-config="true" duration-ms="1153" started-at="2019-07-06T18:17:27Z" finished-at="2019-07-06T18:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="preCondition" is-config="true" duration-ms="5006" started-at="2019-07-06T18:17:28Z" finished-at="2019-07-06T18:17:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Launching Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="deleteCustomer" duration-ms="6895" started-at="2019-07-06T18:17:33Z" depends-on-methods="scripts.TaskTest.deleteProject" finished-at="2019-07-06T18:17:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomer script has started Sat Jul 06 23:47:33 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[GE HealthCare has been deleted successfully!!]]>
+            </line>
+            <line>
+              <![CDATA[deleteCustomer script has passed!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:scripts.TaskTest@2cb4c3ab]" name="postCondition" is-config="true" duration-ms="699" started-at="2019-07-06T18:17:40Z" finished-at="2019-07-06T18:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

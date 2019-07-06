@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="generic.MyTestngListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="headless" value="false"/>
+    <parameter name="system" value="remote"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://127.0.0.1/login.do"/>
+    <classes>
+      <class name="scripts.LoginTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="validLogin"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- scripts.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
